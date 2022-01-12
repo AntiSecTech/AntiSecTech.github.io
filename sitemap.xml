@@ -5,14 +5,50 @@
     <description>CTF's, Wargames, Writeups &amp; more</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/sitemap.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 11 Jan 2022 11:59:53 -0500</pubDate>
-    <lastBuildDate>Tue, 11 Jan 2022 11:59:53 -0500</lastBuildDate>
+    <pubDate>Wed, 12 Jan 2022 16:06:14 -0500</pubDate>
+    <lastBuildDate>Wed, 12 Jan 2022 16:06:14 -0500</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
-        <title>Hello World</title>
-        <description>&lt;p&gt;Hello world, here I am at last. From today I would like to use this website to keep you informed about my successes and failures. This page essentially contains my experience in dealing with computers and computer technology. Here you will find collections of links, scripts and writeups.&lt;/p&gt;
+        <title>cat setup.conf</title>
+        <description>&lt;p&gt;Here I want to give you a brief insight into my setup when I play CTFs. Most of the scenarios relate to virtual machines that I run with &lt;a href=&quot;https://www.virtualbox.org/&quot;&gt;VirtualBox&lt;/a&gt;, among others, in addition to &lt;a href=&quot;https://www.qemu.org/&quot;&gt;quemu&lt;/a&gt; and &lt;a href=&quot;https://www.vagrantup.com/&quot;&gt;Vagrant&lt;/a&gt;.&lt;/p&gt;
 
+&lt;h3&gt;&lt;i class=&quot;fa fa-desktop&quot;&gt;&lt;/i&gt;ls -l /proc/&lt;/h3&gt;
+&lt;p&gt;My device is a 12.5” Lenovo X260 from 2016 with an Intel Skylake-Dual Core-Processor i7-6500U with up to 3.4 GHz @4 Cores, 4MB cache with Intel SoC chipset. 16GB PC4-2133MHz DDR4 RAM. 2,5” 86,6GB SSD hard drive and a Mesa Intel HD-Graphics 520.&lt;/p&gt;
+
+&lt;h3&gt;&lt;i class=&quot;fa fa-gears&quot;&gt;&lt;/i&gt;uname -a&lt;/h3&gt;
+&lt;p&gt;Debian Linux - Parrot OS 5.0 LTS x86_64&lt;br /&gt;
+MATE Desktop 1.24.1&lt;br /&gt;
+Oracle VirtualBox 6.1.26&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3&gt;&lt;i class=&quot;fa fa-tasks&quot;&gt;&lt;/i&gt;Alternative cases&lt;/h3&gt;
+&lt;p&gt;Virtual machines with recommended settings and various Linux distributions.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://parrotsec.org/&quot;&gt;Parrot Security&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kali.org/&quot;&gt;KALI&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.blackarch.io/&quot;&gt;BlackArch&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://archstrike.org/&quot;&gt;ArchStrike&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To be honest, I rarely use the Arch derivatives because I’m more of a Debian user.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 09 Jan 2022 01:30:00 -0500</pubDate>
+        <link>http://localhost:4000/post/2022/01/09/my-setup.html</link>
+        <guid isPermaLink="true">http://localhost:4000/post/2022/01/09/my-setup.html</guid>
+        
+        
+        <category>post</category>
+        
+      </item>
+    
+      <item>
+        <title>less Hello_World.c</title>
+        <description>&lt;h3&gt;&lt;i class=&quot;fa fa-sign-language&quot;&gt;&lt;/i&gt;it works!&lt;/h3&gt;
+&lt;p&gt;Hello world, here I am at last. From today I would like to use this website to keep you informed about my successes and failures. This page essentially contains my experience in dealing with computers and computer technology. Here you will find collections of links, scripts and writeups.&lt;/p&gt;
+
+&lt;h3&gt;&lt;i class=&quot;fa fa-info-circle&quot;&gt;&lt;/i&gt;README.md&lt;/h3&gt;
+&lt;p&gt;Yes, this site may have a strange structure, this is supposed to give this blog, which is kept quite simple, a bit nerdy touch.
+However, if you don’t understand, you may be wrong here.&lt;/p&gt;
 </description>
         <pubDate>Sun, 09 Jan 2022 01:00:00 -0500</pubDate>
         <link>http://localhost:4000/post/2022/01/09/hello-world.html</link>
