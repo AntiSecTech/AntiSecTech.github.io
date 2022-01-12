@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AntiSecTech - Cyber Security Penetration Testing</title>
+    <description>CTF's, Wargames, Writeups &amp; more</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/sitemap.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 11 Jan 2022 11:59:53 -0500</pubDate>
+    <lastBuildDate>Tue, 11 Jan 2022 11:59:53 -0500</lastBuildDate>
+    <generator>Jekyll v3.9.0</generator>
+    
+      <item>
+        <title>Hello World</title>
+        <description>&lt;p&gt;Hello world, here I am at last. From today I would like to use this website to keep you informed about my successes and failures. This page essentially contains my experience in dealing with computers and computer technology. Here you will find collections of links, scripts and writeups.&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 09 Jan 2022 01:00:00 -0500</pubDate>
+        <link>http://localhost:4000/post/2022/01/09/hello-world.html</link>
+        <guid isPermaLink="true">http://localhost:4000/post/2022/01/09/hello-world.html</guid>
+        
+        
+        <category>post</category>
+        
+      </item>
+    
+  </channel>
+</rss>
