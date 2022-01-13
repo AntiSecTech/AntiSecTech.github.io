@@ -1,0 +1,64 @@
+title: AntiSecTech - Cyber Security Penetration Testing
+description: CTF's, Wargames, Writeups & more
+author: AntiSecTech
+github: https://github.com/antisectech
+about: Hack the world, it's just a game. Don't be an idiot, respect the community, fuck the society! Control is an illusion, nothing is certain.
+disqus_shortname: 
+google_analytics: UA-XXXXXXXX-Y
+
+enableTags: true
+tagarray: []
+
+collections:
+  project:
+    output: true
+    permalink: /project/:path/
+
+social:
+    - icon: fa-globe
+      link: "http://www.antisectech.tk"
+    - icon: fa-at
+      link: "mailto:contact.antisec@pm.me"
+    - icon: fa-github
+      link: "https://github.com/antisectech"
+    - icon: fa-twitter
+      link: "https://twitter.com/AntiSecTech"
+
+share:
+  twitter_username: AntiSecTech
+  fb_appid: 1749788565247320
+
+urls:
+    - text: whoami
+      url: /about/
+    - text: /var/opt
+      url: /projects/
+    - text: /etc/feeds
+      url: /feed.xml
+
+url: "https://antisectech.github.io"
+baseurl: ""
+paginate: 20
+per_page: 20
+paginate_path: "/page/:num/"
+markdown: kramdown
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: ['development']
+
+plugins:
+  - jekyll-feed
+  - jekyll-readme-index
+  - jekyll-pdf-embed
+  - jekyll-paginate
+  - jekyll-gist
+  - liquid-md5
+
+readme_index:
+  enabled:          true
+  remove_originals: false
+  with_frontmatter: false

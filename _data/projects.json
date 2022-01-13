@@ -1,0 +1,10 @@
+[
+	{
+		"slug": "scripts",
+		"name": "echo 0x01",
+		"image": "bash.jpg",
+		"url": "scripts",
+		"date": "Jan 2022",
+		"tags": ["BASH","/bin/bash"]
+	}
+]
