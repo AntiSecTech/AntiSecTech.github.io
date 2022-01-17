@@ -49,6 +49,12 @@ echo "${TIP} ${THOST}" >> /etc/hosts ; cat /etc/hosts | grep $THOST
 sudo arp-scan $RANGE | grep PCS | awk '{print $1}'
 ```
 
+### Portscan using Netcat
+a really primitive port scan that checks the range from 21 to 8080
+```sh
+nc -zv $TIP 21-8080
+```
+
 ### nmap-scan
 ```sh
 nmap -T4 -A -v $(sudo arp-scan $RANGE | grep PCS | awk '{print $1}')
