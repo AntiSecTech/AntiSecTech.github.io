@@ -4,7 +4,7 @@ title:  "echo 0x01"
 slug: "scripts"
 ---
 
-Here are my one-liners that I often use in the scenarios. I call these funny little helpers.
+Here are my one-liners that I often use in the scenarios. I call these funny little helpers. You can then easily use this with copy and paste.
 
 ### my IP Address
 ```sh
@@ -30,6 +30,10 @@ echo > /dev/tcp/$TIP/80; [ $? -eq 0 ] && echo 'HTTP Server running' || echo 'HTT
 ### get HTTP Header
 ```sh
 printf "HEAD / HTTP/1.0\r\n\r\n" | nc $TIP 80
+```
+same like
+```sh
+curl -IL "http://$TIP"
 ```
 
 ### HOSTS Entry
