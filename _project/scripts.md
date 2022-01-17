@@ -17,6 +17,11 @@ export TIP=$(sudo arp-scan $RANGE | grep PCS | awk '{print $1}')
 ```
 or use alternarives (like **arp-scan** or **netdiscover**)
 
+### check for SSH
+```sh
+echo > /dev/tcp/$TIP/22; [ $? -eq 0 ] && echo 'SSH OPEN' || echo 'SSH CLOSED'
+```
+
 ### HOSTS Entry
 however, this operation only works if you are generally operating as a super user.<br>
 $THOST must be declared first, e.g. with ```export THOST=example.box```<br>
