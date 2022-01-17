@@ -4,7 +4,7 @@ title:  "echo 0x01"
 slug: "scripts"
 ---
 
-Here are my one-liners that I often use in the scenarios. I call these funny little helpers. You can then easily use this with copy and paste.
+Here are my one-liners that I often use in the scenarios. I call these [funny little helpers](https://github.com/AntiSecTech/AntiSecTech.github.io/blob/main/_project/scripts.md). You can then easily use this with copy and paste.
 
 ### my IP Address
 ```sh
