@@ -22,6 +22,16 @@ or use alternarives (like **arp-scan** or **netdiscover**)
 echo > /dev/tcp/$TIP/22; [ $? -eq 0 ] && echo 'SSH OPEN' || echo 'SSH CLOSED'
 ```
 
+### check for HTTP
+```sh
+echo > /dev/tcp/$TIP/80; [ $? -eq 0 ] && echo 'HTTP Server running' || echo 'HTTP Server not running'
+```
+
+### get HTTP Header
+```sh
+printf "HEAD / HTTP/1.0\r\n\r\n" | nc $TIP 80
+```
+
 ### HOSTS Entry
 however, this operation only works if you are generally operating as a super user.<br>
 $THOST must be declared first, e.g. with ```export THOST=example.box```<br>
